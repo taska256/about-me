@@ -16,7 +16,7 @@
         },
         {
             title: "ポートフォリオサイト",
-            desc: "SvelteKitで構築しcloudflare workersでホスティング。",
+            desc: "SvelteKitで構築しcloudflare pagesでホスティング。",
             url: `https://github.com/${GITHUB_USER}/about-me`,
             image: null,
         },
