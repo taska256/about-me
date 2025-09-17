@@ -33,9 +33,3 @@
 <main class="mx-auto max-w-5xl px-4">
 	<slot />
 </main>
-
-<footer class="mt-16 w-full">
-	<div class="mx-auto max-w-5xl px-4 py-5 text-sm text-stone-600 text-center">
-		© 2025 {NAME}
-	</div>
-</footer>

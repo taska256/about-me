@@ -1,5 +1,5 @@
 <script>
-    import { GITHUB_USER } from "../lib/constant";
+    import { GITHUB_USER, NAME } from "../lib/constant";
 
     const works = [
         {
@@ -29,7 +29,7 @@
             <h1
                 class="text-3xl font-bold tracking-tight text-stone-900 md:text-4xl"
             >
-                Tomoya Takahashi
+                {NAME}
             </h1>
             <p class="mt-4 text-stone-700">
                 千葉大学 B3 | <a href="https://akariinc.co.jp/" target="_blank"
@@ -62,7 +62,7 @@
     </p>
 </section>
 
-<section id="works" class="pt-8">
+<section id="works" class="pt-8 pb-20">
     <h2 class="text-2xl font-semibold text-stone-900">制作物等</h2>
     <div class="mt-6 grid gap-6 md:grid-cols-2 px-6">
         {#each works as w}
