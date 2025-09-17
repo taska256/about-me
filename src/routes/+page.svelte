@@ -1,7 +1,2 @@
-<script>
-    import Background from "../components/Background.svelte";
-    import "../app.css";
-</script>
-
-<p class="fixed text-2xl text-gray-600 font-bold p-2">threejs background</p>
-<Background />
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
