@@ -71,7 +71,7 @@
                     href={w.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="group block rounded-xl border border-yellow-200 bg-white/60 p-5 shadow-sm backdrop-blur hover:bg-white/80 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-yellow-50"
+                    class="group block rounded-xl border-2 border-yellow-700 bg-white/60 p-5 backdrop-blur hover:bg-white/80 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-yellow-50"
                 >
                     {#if w.image}
                         <img
@@ -90,7 +90,7 @@
                 </a>
             {:else}
                 <article
-                    class="rounded-xl border border-yellow-200 bg-white/60 p-5 shadow-sm backdrop-blur"
+                    class="rounded-xl border border-yellow-200 bg-white/60 p-5 backdrop-blur"
                 >
                     {#if w.image}
                         <img
