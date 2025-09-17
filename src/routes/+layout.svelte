@@ -9,9 +9,7 @@
 	<title>{NAME}</title>
 </svelte:head>
 
-<header
-	class="sticky top-0 z-50 border-b-2 border-stone-800 bg-yellow-50/80 backdrop-blur"
->
+<header class="sticky top-0 z-50 border-b-2 border-stone-800 backdrop-blur-xl">
 	<nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
 		<div class="flex items-center gap-3">
 			<a
@@ -36,7 +34,7 @@
 	<slot />
 </main>
 
-<footer class="mt-16 bg-yellow-50 w-full">
+<footer class="mt-16 w-full">
 	<div class="mx-auto max-w-5xl px-4 py-5 text-sm text-stone-600 text-center">
 		© 2025 {NAME}
 	</div>
