@@ -1,12 +1,12 @@
 <script>
 	import "../app.css";
 	import Icon from "@iconify/svelte";
-	import { GITHUB_USER, NAME, SITE_DOMAIN } from "../lib/constant";
+	import { GITHUB_USER, SITE_DOMAIN } from "../lib/constant";
 	const avatarUrl = `https://github.com/${GITHUB_USER}.png?size=240`;
 </script>
 
 <svelte:head>
-	<title>{NAME}</title>
+	<title>{SITE_DOMAIN}</title>
 </svelte:head>
 
 <header class="sticky top-0 z-50 border-b-2 border-stone-800 backdrop-blur-xl">
